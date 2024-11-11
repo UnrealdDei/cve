@@ -5,7 +5,7 @@ https://code-projects.org/job-recruitment-in-php-css-javascript-and-mysql-free-d
 ## Vulnerability file
 index.php
 ## describe
-Through code audit, when there is an unauthorized SQL injection vulnerability in the admin.php of the Job_Recruitment systtem, The information of the database can be obtained without authorization, and arbitrary commands may be executed. control parameter: **$email**
+Through code audit, when there is an unauthorized SQL injection vulnerability in the index.php of the Job_Recruitment systtem, The information of the database can be obtained without authorization, and arbitrary commands may be executed. control parameter: **$email**
 
 ## code analysis
 The **$email** parameters of the index.php are not filtered and concatenated into the SQL statement for execution. There sql injection vulnerability.
