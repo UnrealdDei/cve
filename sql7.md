@@ -7,7 +7,7 @@ jid parameter
 
 ## describe
 
-In jid parameter .An unrestricted SQL injection attack exists in a job-recruitmentsystem. The parameters that can be controlled are as follows:  jid parameter . This function executes the job_company parameter into the SQL statement without any restrictions. A malicious attacker could exploit this vulnerability to obtain sensitive information in the server database.
+In jid parameter .An unrestricted SQL injection attack exists in a job-recruitmentsystem. The parameters that can be controlled are as follows:  jid parameter . This function executes the jid parameter into the SQL statement without any restrictions. A malicious attacker could exploit this vulnerability to obtain sensitive information in the server database.
 
 **Code analysis**    
 
